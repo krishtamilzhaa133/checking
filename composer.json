@@ -1,0 +1,32 @@
+{
+    "name":        "skrish/novalnet-skrish-module",
+    "description": "This display the coupon list in my account page",
+    "type":        "oxideshop-module",
+    "keywords":    [
+        "oxid",
+        "modules",
+        "eShop",
+        "coupon"
+    ],
+    "homepage":    "https://www.krish.de",
+    "license":     [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "authors":     [
+        {
+            "name":  "Krish",
+            "email": "krishnaraj_p@novalnetsolutions.com"
+        }
+    ],
+    "extra":       {
+        "oxideshop": {
+            "target-directory": "oe/skrish"
+        }
+    },
+    "autoload":    {
+        "psr-4": {
+            "oe\\skrish\\": "../../../source/modules/oe/skrish"
+       }
+    }
+}
